@@ -1,0 +1,21 @@
+version: '3.2'
+
+services:
+
+  app_backend:
+    build: app_backend
+    ports:
+      - 20080:80
+    volumes:
+      # Re-use local composer cache via host-volume
+      - ~/.composer-docker/cache:/root/.composer/cache:delegated
+      # Mount source-code for development
+      - ./:/app
+
+  mysql:
+    image: mysql:10.6.5
+    environment:
+      - MYSQL_ROOT_PASSWORD=verysecret
+      - MYSQL_DATABASE=movehq
+      - MYSQL_USER=movehq
+      - MYSQL_PASSWORD=secret

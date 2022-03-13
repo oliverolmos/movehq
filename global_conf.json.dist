@@ -1,0 +1,19 @@
+{
+	"backend_url": "http://api.movehq.local/",
+	"frontend_url": "http://movehq.local/",
+	"database": {
+		"dsn": "mysql:host=localhost;dbname=movehq",
+		"username": "root",
+		"password": "oliv3r"
+	},
+	"admin_email": "olmosoliver@gmail.com",
+	"user_password_reset_token_expiration": 3600,
+	"auth_token": "",
+	"mailer": {
+		"username": "user@example.com",
+		"password": "",
+		"host": "smtp.gmail.com",
+		"port": "587",
+		"encryption": "tls"
+	}
+}
