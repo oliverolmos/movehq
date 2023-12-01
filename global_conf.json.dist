@@ -1,8 +1,8 @@
 {
-	"backend_url": "http://api.movehq.local/",
-	"frontend_url": "http://movehq.local/",
+	"backend_url": "http://api.local/",
+	"frontend_url": "http://localhost/",
 	"database": {
-		"dsn": "mysql:host=localhost;dbname=movehq",
+		"dsn": "mysql:host=localhost;dbname=test",
 		"username": "root",
 		"password": "oliv3r"
 	},
