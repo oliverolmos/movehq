@@ -10,7 +10,7 @@ Installation Requirements
 
 Installation Steps
 1. Setup the document root for your apache installation or for a virtualhost. The document root should use this path: api/app_backend/web from the project.
-2. Modify your hosts file if you decided to use a domain name instead of you IP. Example: **127.0.0.1 api.movehq.local**
+2. Modify your hosts file if you decided to use a domain name instead of you IP. Example: **127.0.0.1 api.localhost**
 3. Create the datababase to be used for the application.
 4. Create a copy of the **file global_conf.json.dist** and name it **global_conf.json** then make the following changes on the new file: 
   - Use the domain name you just created or the IP of your server for the **backend_url** param.
