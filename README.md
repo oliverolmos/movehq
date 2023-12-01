@@ -1,4 +1,3 @@
-# movehq
 
 This is a basic Admin Panel featuring Vue.js and Yii2. This version was created using MariaDB, but soon it will support other databases. 
 
